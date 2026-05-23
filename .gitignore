@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+myenv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model outputs (large binaries)
+outputs/checkpoints/
+outputs/**/model_best.pth
+outputs/**/*_epoch_*.pth
+outputs/models/*.pth
+outputs/models/*.h5
+outputs/models/*.weights.h5
+outputs/plots/*.png
+outputs/gradcam/*.png
+
+# Config secrets
+config/*.key
+config/*.secret
+
+# Logs
+*.log
+tensorboard/

@@ -1,0 +1,27 @@
+============================================================
+Classification Metrics Report
+============================================================
+
+Accuracy            : 0.9823
+Precision           : 0.9929
+Recall              : 0.9824
+F1 Score            : 0.9876
+Specificity         : 0.9819
+Sensitivity         : 0.9824
+Auc Roc             : 0.9974
+Kappa               : 0.9564
+Mcc                 : 0.9566
+
+Confusion Matrix:
+[[217   4]
+ [ 10 559]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.98      0.97       221
+           1       0.99      0.98      0.99       569
+
+    accuracy                           0.98       790
+   macro avg       0.97      0.98      0.98       790
+weighted avg       0.98      0.98      0.98       790
