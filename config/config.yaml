@@ -1,6 +1,6 @@
 data:
   breakhis:
-    path: /kaggle/input/datasets/ambarish/breakhis
+    path: /kaggle/input/datasets/ambarish/breakhis/BreaKHis_v1/BreaKHis_v1/histology_slides/breast
     use: true
     magnification: [40, 100, 200, 400]
   inbreast:
