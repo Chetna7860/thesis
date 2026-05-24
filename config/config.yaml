@@ -1,13 +1,13 @@
 data:
   breakhis:
-    path: datasets/breakhis
+    path: /kaggle/input/datasets/ambarish/breakhis
     use: true
     magnification: [40, 100, 200, 400]
   inbreast:
-    path: datasets/inbreast
+    path: /kaggle/input/datasets/ramanathansp20/inbreast-dataset
     use: false
   mias:
-    path: datasets/mias
+    path: /kaggle/input/datasets/kmader/mias-mammography
     use: false
 
 training:
